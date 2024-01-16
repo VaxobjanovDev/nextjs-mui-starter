@@ -1,9 +1,6 @@
-import ClientLayout from "./client-layout";
+import * as React from 'react'
+import { Typography } from '@mui/material'
 
-export default function Home(){
-  return(
-    <ClientLayout>
-      <h1>hello world!</h1>
-    </ClientLayout>
-  )
+export default function HomePage() {
+  return <Typography variant="h1">Hello world!</Typography>
 }
